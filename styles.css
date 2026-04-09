@@ -1,6 +1,7 @@
 :root {
     /* Colors */
     --color-primary: #6c63ff;
+    --color-secondary: #f4c2ff;
     --color-background: #f5f3ff;
     --color-surface: #ffffff;
     --color-text: #333333;
@@ -86,6 +87,11 @@ section {
 
 .btn:hover {
     opacity: 0.9;
+}
+
+.btn:focus {
+    outline: 2px solid var(--color-secondary);
+    outline-offset: 2px;
 }
 
 .card {
